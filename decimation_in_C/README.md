@@ -9,6 +9,6 @@ just a misunderstood at the begining.
 
 ![image](https://user-images.githubusercontent.com/42914736/132569567-395323fa-8f9a-4904-b3f6-d1c7d58df71b.png)
 
-•	Output downsample(decimata actually) array:
+•	Output downsample(decimate actually) array:
 
 ![image](https://user-images.githubusercontent.com/42914736/132569615-c1e8e679-683d-4cdc-a1d0-f8e58952ae63.png)
