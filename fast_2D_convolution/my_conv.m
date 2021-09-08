@@ -16,13 +16,13 @@ function [y] = my_conv(x,h)
         %if i<= n, length of x, the 1st element is updated as x(i)
         %if i> n, the 1st element is updated as 0.
         if i<=n
-            x_overlap(1,1)=x(1,i);
+            x_overlap(1)=x(i);
         else 
-            x_overlap(1,1)=0;
+            x_overlap(1)=0;
         end
         
         %find the convolution result at the index i.
-        y(1,i)=x_overlap*h';
+        y(i)=x_overlap*h';
         
         %find 2nd -> end elements of the vector x_overlap to find the next output value.  
         x_overlap(2:end)=x_overlap(1:end-1);
