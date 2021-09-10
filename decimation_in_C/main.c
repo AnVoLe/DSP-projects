@@ -64,7 +64,8 @@ static void my_convolution (double *x_samples, int x_count,double *h_coeffs, int
     }
 }
 
-
+/**This function removes a half number of the samples.
+**/
 static void decimate_by_2 (double *in_samples, int out_sample_count,double *out_samples)
 {
     for(int i=0;i<out_sample_count;i++)
@@ -75,7 +76,8 @@ static void decimate_by_2 (double *in_samples, int out_sample_count,double *out_
     }
 }
 
-
+/**This function filter first and removes a half of number of samples.
+**/
 static void downsample_by_2 (double *in_samples, int in_sample_count,double *h_coeffs, int h_count,double *out_samples,int out_samples_count)
 {
     // define the output of convolution array
