@@ -1,7 +1,7 @@
 % EE210,Linear system 
 % Student: An Vo
 % -------------------------------------------------------------------------
-% 2D discrete convolution using tabular method
+% discrete convolution using tabular method
 % ---------------------------------
 
 function [y] = my_conv(x,h)
