@@ -4,9 +4,8 @@ This algorithm can be used to estimate channel gains (AGC) in wirelesss communic
 
 The diagram of the algorithm in Simulink:
 
-![image](https://user-images.githubusercontent.com/42914736/132999950-4fedf833-047d-4064-9937-9a8b1e97c041.png)
+![image](https://user-images.githubusercontent.com/42914736/132999969-cf35e678-710e-472f-a339-8c10b3531dca.png)
 
 The scope shows the source signal with different fading and the desired signal(control each sample to 1):
 
-![image](https://user-images.githubusercontent.com/42914736/132999969-cf35e678-710e-472f-a339-8c10b3531dca.png)
-
+![image](https://user-images.githubusercontent.com/42914736/132999950-4fedf833-047d-4064-9937-9a8b1e97c041.png)
