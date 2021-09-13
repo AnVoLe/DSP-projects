@@ -1,4 +1,4 @@
-This program estimates the mean of available data interms of different block sizes. The figures of estimated mean and a table of standard deviation for each block size are shown.
+This program estimates the mean and std of available data interms of different block sizes. The figures of estimated mean and the table of standard deviation for each block size are shown.
 Available data N=1024. There are 4 cases of the block size M=[8 32 128 256] in this program.
 The results:
 
