@@ -15,6 +15,7 @@ we can see the the bigger block size, the smaller standard deviation and the mea
 ## 2. Signal autocorrelation estimate
 This program estimates the auto correlation rxx(m) of available data interms of different block sizes. The process is considered WSS and I estimated rxx(m) for only 20 first terms.
 The biased autocorrelation estimate is used: 
+\hat{r}_{xx}(m)=\frac{1}{N}\sum_{n=0}^{N-|m|-1}{x(n).x(n+m)}
 
 The result:
 
