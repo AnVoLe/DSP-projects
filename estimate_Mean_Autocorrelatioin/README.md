@@ -8,4 +8,4 @@ Each row of the table below shows the estimated std and true std for each case o
 
 ![image](https://user-images.githubusercontent.com/42914736/133139741-6ab9335d-fd98-4d88-b38a-7a31445b2b5d.png)
 
-we can see the the bigger block size, the smaller standard deviation and the mean does not fluctuate.
+we can see the the bigger block size, the smaller standard deviation and the mean is less fluctuating.
