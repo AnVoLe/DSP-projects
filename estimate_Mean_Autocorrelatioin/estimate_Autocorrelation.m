@@ -20,5 +20,5 @@ for N=[32 128 512 1024] % N= Number of data points taken to find autocorrelation
     xlabel('m'), ylabel('rxx-hat(m)'),
     title(sprintf('N= %d', N))
 end
-%title for the group of subplots
+%title for the group of subplots.
 sgtitle('Estimated autocorrelation in different block sizes') 
