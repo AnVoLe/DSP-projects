@@ -9,7 +9,7 @@ x=randn(size([1:N]')); % X is WGN with zero-mean and unit varianvce
 M=21; % estimate rxx(m), 0 <= m <= M-1= 20(maximum correlation lag)
 
 loop=0;
-for N=[32 128 512 1024] % N= Number of data points per block
+for N=[32 128 512 1024] % N= Number of data points taken to find autocorrelation
     loop=loop+1;
     for m=0:M-1
         rxx(m+1)=x(m+1:N)'*x(1:N-m); % Matlab indices start from 1
