@@ -1,4 +1,6 @@
-This folder contains classical spectral estimation methods.
+This folder contains classical spectral estimation methods.  
+The input data are generated as additive white Gaussian noise for the purpose of estimates.
+
 ## 1. Periodogram
 The spectrum is computed from the FFT of the signal. This method causes fluctuations.
 
