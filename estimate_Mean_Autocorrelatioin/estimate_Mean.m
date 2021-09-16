@@ -20,7 +20,8 @@ for M=[8 32 128 256]; % M= Number of data points per block
     end
     
     % estimate of stdev & true stdev for each block size. The bigger block
-    % size, the smaller standard deviation. true stdev= sqrt(sigma^2/M)??
+    % size, the smaller standard deviation. 
+    % true block stdev = sqrt(block variance). block variance = sigma^2/M
     Table=[Table; std(mu) sqrt(sigma^2/M)] 
     
     subplot(2,2,loop), plot([1:L],mu,'x'),grid % plot the results
