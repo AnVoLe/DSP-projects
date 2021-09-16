@@ -1,4 +1,4 @@
-This folder contains classical spectral estimation methods.  
+This folder contains classical (nonparametric) spectral estimation methods.  
 The input data are generated as additive white Gaussian noise for the purpose of estimates.
 
 ## 1. Periodogram
@@ -7,7 +7,7 @@ The spectrum is computed from the FFT of the signal. This method causes fluctuat
 ![periodogramFigure](https://user-images.githubusercontent.com/42914736/133318238-612457b3-1786-40ad-b1ea-219b621a4c16.png)
 
 
-## 2. Welch method
+## 2. Welch method (modified periodogram)
 Split input signal in to L blocks, compute the spectrum( also use FFT) for each block and take the average. 
 Data block may overlap by up to 50% to take full use of data near block edge.
 A window function is applied to each block to smooth the spectral and reduce the leakage.  
