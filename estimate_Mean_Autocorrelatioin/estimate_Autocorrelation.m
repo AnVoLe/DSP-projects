@@ -1,4 +1,4 @@
-% EE252, Adaptive DSP
+% EE254, Adaptive DSP
 % student: An Vo
 % 2) Estimation of the Autocorrelation Function
 % ------------------------------------------------------
