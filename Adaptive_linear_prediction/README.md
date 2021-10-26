@@ -7,9 +7,9 @@ The process of FBLSM algorithm is shown here: (Diagram from the book: Behrouz Fa
 ) 
 ![image](https://user-images.githubusercontent.com/42914736/138956989-49d20f43-d0ce-4945-9b92-21ac0d4c4e52.png)
 
-Code flow:  
+Code flow for FBLSM algorithm:  
 ![image](https://user-images.githubusercontent.com/42914736/138961792-2515a578-688b-4c02-8999-10b6f4832acc.png)
 
-Example:  
+Example for FBLSM algorithm:  
 ![image](https://user-images.githubusercontent.com/42914736/138961886-39c38962-6066-44ba-addb-33103c902aa5.png)
 
